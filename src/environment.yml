@@ -1,0 +1,11 @@
+name: project_env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  
+  - pip:
+    - -r requirements_dev.txt
+    - -r requirements_test.txt
+    - -e src/
