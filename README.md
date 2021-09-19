@@ -12,7 +12,11 @@ Based on Kedro and Cookie Cutter Data Science
 *   testing
 *   mkdocs
 
-## Install
+## Using the template
+Clone the repo.
+Replace instances of `Project` and away you go.
+
+## Install dev environment
 Conda:
 ```
 conda env create -f src/environment.yml

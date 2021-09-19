@@ -3,7 +3,7 @@ site_name: Project
 
 docs_dir: docs/source
 site_dir: docs/build
-use_directory_urls: false
+use_directory_urls: false # need for loading a static site
 
 plugins:
   - mkdocstrings
