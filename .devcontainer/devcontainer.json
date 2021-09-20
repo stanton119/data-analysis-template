@@ -34,7 +34,8 @@
 			"src"
 		],
 		"python.testing.pytestEnabled": true,
-		"python.testing.unittestEnabled": false
+		"python.testing.unittestEnabled": false,
+		"git.autofetch": true,
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.

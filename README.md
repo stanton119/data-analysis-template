@@ -45,8 +45,5 @@ pytest
 Taken directly from `Kedro`.
 
 ## Todo
-Replace `config.yml` with base/local config files.
-Local to be added to the gitignore.
-Load-config function will load both and local takes precedence.
-Project specific vscode settings (autoformatter etc.) in the dev container json and vscode folder?
-Personal dev settings (shortcuts etc.) not in the dev container.
+*   Project specific vscode settings (autoformatter etc.) in the dev container json and vscode folder? How to apply with conda/pip installations?
+*   Personal dev settings (shortcuts etc.) not in the dev container.
