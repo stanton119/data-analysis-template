@@ -6,7 +6,8 @@ import yaml
 
 def load_config() -> Dict:
     """Loads config file from `conf` directory.
-    Overwrites base with local config
+
+    Overwrites base with local config.
 
     Returns:
         Dict: config dict
@@ -30,6 +31,7 @@ def load_config() -> Dict:
 
 
 def merge_dict(dict1, dict2):
+    """Merge two dicts together into single Dict."""
     for key, val in dict1.items():
         if type(val) == dict:
             if key in dict2 and type(dict2[key] == dict):
