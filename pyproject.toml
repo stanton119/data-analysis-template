@@ -6,3 +6,6 @@ build-backend = "setuptools.build_meta"
 addopts = """
 --cov-report term-missing \
 --cov src/project -ra"""
+
+[tool.pydocstyle]
+convention = "google"

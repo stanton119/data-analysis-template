@@ -2,3 +2,5 @@ jupyter
 pylint
 rope
 black
+pydocstyle
+isort

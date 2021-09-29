@@ -44,6 +44,11 @@ pytest
 ## Data layers
 Taken directly from `Kedro`.
 
+## Coding style
+*   `black` for general style.
+*   `pydocstyle` - doc strings - google style.
+*   `isort` - for ordering imports.
+
 ## Todo
 *   Project specific vscode settings (autoformatter etc.) in the dev container json and vscode folder? How to apply with conda/pip installations?
 *   Personal dev settings (shortcuts etc.) not in the dev container.
