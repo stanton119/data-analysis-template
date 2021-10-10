@@ -11,6 +11,7 @@ Based on Kedro and Cookie Cutter Data Science
 *   config.yml
 *   testing
 *   mkdocs
+*   pre-commit code formatting
 
 ## Using the template
 Clone the repo.
@@ -32,6 +33,11 @@ pip install -e src/
 ```
 
 Docker via devcontainers in vscode.
+
+Installing pre-commit hooks in each case:
+```
+pre-commit install
+```
 
 ## Testing
 ```
