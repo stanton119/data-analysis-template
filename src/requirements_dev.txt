@@ -4,3 +4,4 @@ rope
 black
 pydocstyle
 isort
+pre-commit
