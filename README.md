@@ -4,7 +4,7 @@ Template repo for data analysis projects
 Includes typical settings for VScode
 
 
-Based on Kedro and Cookie Cutter Data Science
+Based on [Kedro](https://github.com/quantumblacklabs/kedro) and [Cookie Cutter Data Science](https://github.com/drivendata/cookiecutter-data-science/)
 
 *   Kedro/cookie cutter based
 *   fsspec for IO
