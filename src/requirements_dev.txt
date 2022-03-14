@@ -1,7 +1,0 @@
-jupyter
-pylint
-rope
-black
-pydocstyle
-isort
-pre-commit

@@ -4,8 +4,7 @@ channels:
 dependencies:
   - python
   - pip
-  
+  - jupyter
+
   - pip:
-    - -r requirements_dev.txt
-    - -r requirements_test.txt
-    - -e src/
+    - -e src[dev,test]
