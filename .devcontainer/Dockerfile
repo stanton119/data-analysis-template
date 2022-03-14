@@ -9,12 +9,12 @@ ARG NODE_VERSION="none"
 RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
 
 # Add test/dev requirements
-COPY src/requirements_dev.txt /tmp/pip-tmp/
-RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requirements_dev.txt \
-   && rm -rf /tmp/pip-tmp
-COPY src/requirements_test.txt /tmp/pip-tmp/
-RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requirements_test.txt \
-   && rm -rf /tmp/pip-tmp
+# COPY src/requirements_dev.txt /tmp/pip-tmp/
+# RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requirements_dev.txt \
+#    && rm -rf /tmp/pip-tmp
+# COPY src/requirements_test.txt /tmp/pip-tmp/
+# RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requirements_test.txt \
+#    && rm -rf /tmp/pip-tmp
 
 # [Optional] If your project pip requirements rarely change, uncomment this section to add them to the image.
 # COPY src/requirements.txt /tmp/pip-tmp/
