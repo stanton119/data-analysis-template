@@ -1,0 +1,9 @@
+{
+    "python.formatting.provider": "black",
+    "python.testing.pytestArgs": [
+        "src/tests"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "git.autofetch": true,
+}
