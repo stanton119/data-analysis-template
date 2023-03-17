@@ -20,7 +20,7 @@ Replace instances of `Project` and away you go.
 ## Install dev environment
 Conda:
 ```
-conda env create -f src/environment.yml
+conda env create -f environment.yml
 ```
 
 Pip + venv:
