@@ -23,6 +23,8 @@ Conda:
 conda env create -f environment.yml
 ```
 
+Docker via devcontainers in vscode.
+
 Pip + venv:
 ```
 python -m venv project_env
@@ -31,8 +33,6 @@ pip install -r src/requirements_dev.txt
 pip install -r src/requirements_test.txt
 pip install -e src/
 ```
-
-Docker via devcontainers in vscode.
 
 Installing pre-commit hooks in each case:
 ```
