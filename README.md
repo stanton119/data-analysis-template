@@ -1,4 +1,4 @@
-# data-anaylsis-template
+# data-analysis-template
 Template repo for data analysis projects
 
 Includes typical settings for VScode
