@@ -8,3 +8,4 @@ dependencies:
 
   - pip:
     - -e src[dev,test]
+    - python-dotenv

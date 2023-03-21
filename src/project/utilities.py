@@ -1,7 +1,12 @@
+import os
 from pathlib import Path
 from typing import Dict
 
+import dotenv
 import yaml
+
+dotenv.load_dotenv()
+os.getenv("ENV_VAR2")
 
 
 def load_config() -> Dict:
